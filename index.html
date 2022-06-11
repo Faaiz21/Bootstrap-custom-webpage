@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Food Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- navbar  -->
+
+    <nav class="navbar navbar-expand-lg bg-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-utensils  "></i><span id="heading">Food</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Home</a>
+        </li>
+       
+        <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Speciality</a>
+        </li>
+         <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Popular</a>
+        </li>
+         <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Gallery</a>
+        </li>
+         <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Review</a>
+        </li>
+         <li class="nav-item mb-2">
+          <a class="nav-link mb-2" href="#">Order</a>
+        </li>
+
+    </div>
+  </div>
+</nav>
+
+<!-- home -->
+
+<div class="container-fluid ">
+  <div class="row justify-content-evenly">
+    <div class="col-md-5" id="home-text">
+  <h1 class="pt-2">Food Made With Love</h1>
+  <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Voluptas Accusamus Tempore Temporibus Rem Amet Laudantium Animi Optio Voluptatum. Natus Obcaecati Unde Porro Nostrum Ipsam Itaque Impedit Incidunt Rem Quisquam Eos!</p>
+  <button type="button" class="btn" id="orderBtn">Order Now</button>
+</div>
+<div class="col-md-5">
+   <img src="images/home-img.png" class="img-fluid"alt="">
+</div>
+</div>
+
+<!-- Our Speciality -->
+<div class="row mt-5">
+<h2 class="text-center">Our <span id="heading-text">Speciality</span></h2>
+ <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="images/s-img-1.jpg" alt="">
+            <div class="content">
+                <img src="images/s-1.png" alt="">
+                <h3>tasty burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="images/s-2.png" alt="">
+                <h3>tasty pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="images/s-3.png" alt="">
+                <h3>cold ice-cream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-4.jpg" alt="">
+            <div class="content">
+                <img src="images/s-4.png" alt="">
+                <h3>cold drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-5.jpg" alt="">
+            <div class="content">
+                <img src="images/s-5.png" alt="">
+                <h3>tasty sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-6.jpg" alt="">
+            <div class="content">
+                <img src="images/s-6.png" alt="">
+                <h3>healty breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+</div>
+
+
+<!-- popular foods -->
+<h2 class="text-center mt-5">Most <span id="heading-text">Popular</span> Foods</h2>
+
+<div class="row row-cols-1 row-cols-md-3 col-10 g-4 m-auto">
+  <div class="col">
+    <div class="card">
+      <img src="images/p-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <span class="price">$5 - $20</span>
+        <h5 class="card-title">Tasty Burger</h5>
+         <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+          <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/p-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <span class="price">$5 - $20</span>
+         <h5 class="card-title">Tasty Cakes</h5>
+         <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+          <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/p-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <span class="price">$5 - $20</span>
+         <h5 class="card-title">Tasty Sweets</h5>
+         <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+          <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/p-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <span class="price">$5 - $20</span>
+        <h5 class="card-title">Tasty Cupcakes</h5>
+         <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+          <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>      </div>
+    </div>
+  </div>
+</div>
+
+<!-- How it works -->
+
+<h2 class="text-center mt-5">How It <span id="heading-text">Works</span> </h2>
+<div class="row container justify-content-evenly" id="howItWorks">
+  <div class="item col-lg-2 col-sm-5 m-2 text-center">
+    <img src="images/step-1.jpg">
+    <h2>Choose Your Favorite Food</h2>
+  </div>
+
+   <div class="item col-lg-2 col-sm-5 m-2 text-center">
+    <img src="images/step-2.jpg">
+    <h2>Free And Fast Delivery</h2>
+  </div>
+
+   <div class="item col-lg-2 col-sm-5 m-2 text-center">
+    <img src="images/step-3.jpg">
+    <h2>Easy Payments Methods</h2>
+  </div>
+
+   <div class="item col-lg-2 col-sm-5 m-2 text-center">
+    <img src="images/step-4.jpg">
+    <h2>And Finally, Enjoy Your Food</h2>
+  </div>
+</div>
+
+
+<!-- Our Food Gallery -->
+<h2 class="text-center mt-5">Our Food <span id="heading-text">Gallery</span> </h2>
+<div class="row container justify-content-evenly">
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4 text-center">
+    <img src="images/g-1.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4 text-center">
+    <img src="images/g-2.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4  text-center">
+    <img src="images/g-3.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4  text-center">
+    <img src="images/g-4.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4 text-center">
+    <img src="images/g-5.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+  <div class="unit col-lg-2 col-sm-3 m-2 mt-4 text-center">
+    <img src="images/g-6.jpg">
+    <div class="content">
+      <h4>Tasty Food</h4>
+      <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.</p>
+      <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+    </div>
+  </div>
+
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h2 class="text-center mt-5 mb-4">Our Customers <span id="heading-text">Reviews</span> </h2>
+
+    <div class=" row box-container col-md-10 justify-content-center mx-auto">
+
+        <div class="box col-md-5 bg-secondary text-white">
+            <img src="images/pic1.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box col-md-5 bg-secondary text-white">
+            <img src="images/pic2.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box col-md-5 bg-secondary text-white">
+            <img src="images/pic3.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+      <h2 class="text-center mt-5 mb-4"> <span id="heading-text">Order</span> Now </h2>
+
+    <div class="row justify-content-center mx-auto ">
+        
+        <div class="image ">
+            <img src="images/order-img.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox col justify-content-evenly">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox col">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+            </div>
+           
+        
+            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+        
+
+             <button type="button" class="btn btn-outline-danger px-4 m-2">Order Now</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- footer section  -->
+
+<section class="footer  text-center">
+
+    <div class="share">
+        <a href="#" class="btn btn-outline-danger mx-1">facebook</a>
+        <a href="#" class="btn btn-outline-danger mx-1">twitter</a>
+        <a href="#" class="btn btn-outline-danger mx-1">instagram</a>
+        <a href="#" class="btn btn-outline-danger mx-1">pinterest</a>
+        <a href="#" class="btn btn-outline-danger mx-1">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> Faaiz Sorathiya </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- container end -->
+</div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
